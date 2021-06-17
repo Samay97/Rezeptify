@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/Samay97/Rezeptify/workflows/master.yml/badge.svg)](https://github.com/Samay97/Rezeptify/actions)
+[![Actions Status](https://github.com/Samay97/Rezeptify/workflows/master/badge.svg)](https://github.com/Samay97/Rezeptify/actions)
 
 # Rezeptify
 
