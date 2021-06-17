@@ -29,8 +29,8 @@ jobs:
           path: ./node_modules
           key: modules-${{ hashFiles('package-lock.json') }}
       - name: Install dependencies
-          if: steps.cache.outputs.cache-hit != 'true'
-          run: npm ci
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
       - name: Test
         run: npm run test:ci
       - name: Archive code coverage result
@@ -57,8 +57,8 @@ jobs:
           path: ./node_modules
           key: modules-${{ hashFiles('package-lock.json') }}
       - name: Install dependencies
-          if: steps.cache.outputs.cache-hit != 'true'
-          run: npm ci
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Archive build
