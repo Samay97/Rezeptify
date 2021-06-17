@@ -1,4 +1,4 @@
-name: CI Master Test, Build, Deploy
+name: ci-master
 
 on:
   push:
